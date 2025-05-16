@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 2rem;
+}
+#game {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+button {
+  margin: 0.5rem;
+  padding: 1rem;
+}
