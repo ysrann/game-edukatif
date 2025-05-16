@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Edukatif Matematika</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div id="game">
-    <h1>Kuis Matematika</h1>
-    <div id="question">Soal akan muncul di sini</div>
-    <div id="answers"></div>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Edukasi Vulkanisme</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    #quiz-container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .question {
+      margin-bottom: 15px;
+    }
+    .options button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      background: #eee;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .options button:hover {
+      background: #ccc;
+    }
+    #next-btn, #restart-btn {
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #28a745;
+      color: white;
+    }
+    #score-container {
+      display: none;
+      text-align: center;
+    }
