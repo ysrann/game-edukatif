@@ -1,16 +1,16 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  text-align: center;
-  padding: 2rem;
-}
-#game {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  display: inline-block;
-}
-button {
-  margin: 0.5rem;
-  padding: 1rem;
-}
+  </style>
+</head>
+<body>
+  <h1>Game Edukasi: Vulkanisme</h1>
+  <div id="quiz-container">
+    <div id="question-container">
+      <div class="question" id="question">Pertanyaan akan muncul di sini</div>
+      <div class="options" id="options"></div>
+    </div>
+    <button id="next-btn" onclick="nextQuestion()">Berikutnya</button>
+  </div>
+  <div id="score-container">
+    <h2>Skor Akhir Kamu:</h2>
+    <p id="score"></p>
+    <button id="restart-btn" onclick="restartQuiz()">Main Lagi</button>
+  </div>
